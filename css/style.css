@@ -9,6 +9,7 @@ header {
   content: "";
   display: table;
   clear: both;
+  margin: 0 auto;
 }
 
 .container {
@@ -18,4 +19,26 @@ header {
   display: flex;
 
   background-color: gray;
+}
+
+.burger {
+  display: none;
+}
+
+@media screen and (max-width: 938px){
+    .header-right ul {
+        display: none;
+    }
+    .header-right > a {
+        display: block;
+        height: 100%;
+        line-height: 70px;
+        float: right;
+        color: lightgrey;
+        font-size: 20px;
+    }
+
+    .burger.active {
+        display: block;
+    }
 }
