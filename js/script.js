@@ -30,6 +30,8 @@ function disactiveMenu() {
 
 }
 
+// .mouseenter(function-name)
+
 function init() {
 
 activeMenu();
